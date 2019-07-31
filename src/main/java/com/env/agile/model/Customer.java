@@ -37,7 +37,7 @@ public class Customer {
 	private String address;
 	
 	
-	@OneToMany( cascade = CascadeType.ALL)
+	@OneToMany(mappedBy="customer", cascade = CascadeType.ALL)
 	List<Accounts> accounts;
 
 	public Customer() {
@@ -98,8 +98,6 @@ public class Customer {
 	public void setAccounts(List<Accounts> accounts) {
 		this.accounts = accounts;
 	}
-
-	ObjectMapper mapper = new ObjectMapper();
 
 	@Override
 	public String toString() {
