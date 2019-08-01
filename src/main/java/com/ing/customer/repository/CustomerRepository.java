@@ -6,6 +6,8 @@ import com.ing.customer.bo.model.Customer;
 import java.util.List;
 import java.util.UUID;
 
+import javax.transaction.Transactional;
+
 
 public interface CustomerRepository extends CrudRepository<Customer, UUID> {
 

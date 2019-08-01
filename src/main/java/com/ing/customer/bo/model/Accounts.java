@@ -19,7 +19,7 @@ public class Accounts {
 	
 	
 	@ManyToOne	  
-	@JoinColumn(name = "FK_customerId")
+	@JoinColumn(name = "FK_CustomerUUID")
 	private Customer customer;
 	
 	@Column(name = "balance")

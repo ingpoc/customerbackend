@@ -19,10 +19,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class Customer {
 
 	// @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id
 	@Column(name = "UUID")
 	private UUID UUID;
 
-	@Id
+	
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 
