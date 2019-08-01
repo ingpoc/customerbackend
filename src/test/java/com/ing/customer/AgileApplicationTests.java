@@ -1,4 +1,4 @@
-package com.env.agile;
+package com.ing.customer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

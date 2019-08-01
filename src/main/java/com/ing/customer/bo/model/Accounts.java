@@ -1,4 +1,4 @@
-package com.env.agile.model;
+package com.ing.customer.bo.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,9 +12,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "ACCOUNTS")
 public class Accounts {
-
-	
-
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

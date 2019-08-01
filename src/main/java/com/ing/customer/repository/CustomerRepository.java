@@ -1,7 +1,7 @@
-package com.env.agile.repository;
+package com.ing.customer.repository;
 import org.springframework.data.repository.CrudRepository;
 
-import com.env.agile.model.Customer;
+import com.ing.customer.bo.model.Customer;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package com.env.agile;
+package com.ing.customer.controller;
 
 import java.util.List;
 import java.util.UUID;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.env.agile.model.Accounts;
-import com.env.agile.model.Customer;
-import com.env.agile.repository.CustomerRepository;
+import com.ing.customer.bo.model.Accounts;
+import com.ing.customer.bo.model.Customer;
+import com.ing.customer.repository.CustomerRepository;
 
 @RestController
 

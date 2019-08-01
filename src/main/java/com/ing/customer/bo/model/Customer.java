@@ -1,4 +1,4 @@
-package com.env.agile.model;
+package com.ing.customer.bo.model;
 
 import java.util.List;
 import java.util.UUID;

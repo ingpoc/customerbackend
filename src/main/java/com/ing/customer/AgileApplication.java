@@ -1,4 +1,4 @@
-package com.env.agile;
+package com.ing.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,9 +8,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
-@EnableJpaRepositories("com.env.agile.repository")
-@ComponentScan({"com.env.agile"})
-@EntityScan("com.env.agile.model")
+@EnableJpaRepositories("com.ing.customer.repository")
+  
+//@ComponentScan({"com.ing.agile"})
+ 
+@EntityScan("com.ing.customer.bo.model")
 public class AgileApplication {
 
 	public static void main(String[] args) {
